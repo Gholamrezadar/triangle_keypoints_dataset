@@ -6,6 +6,11 @@ The dataset consists of 1000 images of a triangle on a 512x512 image.
 
 You can download the dataset from this link: [TODO LINK](https://a.b)
 
+## Create the dataset
+```bash
+python create_dataset.py --num-images 100 --output train --min-angle 20
+```
+
 TODO:
 
 - [ ] create the dataset
