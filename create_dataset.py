@@ -99,7 +99,7 @@ if __name__ == '__main__':
         # save the image
         cv2.imwrite(os.path.join(args.output, file_name), img)
 
-    with open('train.json', 'w') as f:
+    with open(f'{args.output}.json', 'w') as f:
         json.dump(positions, f)
     
     print(f'Dataset \"{args.output}\" created successfully!')
