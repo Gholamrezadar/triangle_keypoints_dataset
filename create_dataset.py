@@ -5,7 +5,7 @@ import os
 import numpy as np
 import cv2
 import json
-import tqdm
+import tqdm.autonotebook as tqdm
 
 IMAGE_SIZE = 512
 
